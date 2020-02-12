@@ -26,13 +26,50 @@ h1 {
   width: auto;
 }
 
-.middle-page-col {
-  -webkit-box-shadow: 0 0 14px 4px rgba(0, 0, 0, 0.06);
-  -moz-box-shadow: 0 0 14px 4px rgba(0, 0, 0, 0.06);
-  box-shadow: 0 0 14px 4px rgba(0, 0, 0, 0.06);
-  padding: 3rem;
-  margin: 2rem;
+.middle-container {
+  margin-top: 8rem;
+}
+
+.middle-row {
+  -webkit-box-shadow: 0 0 10px 4px rgba(0, 0, 0, 0.06);
+  -moz-box-shadow: 0 0 10px 4px rgba(0, 0, 0, 0.06);
+  box-shadow: 0 0 10px 4px rgba(0, 0, 0, 0.06);
+  padding: 3rem 1rem 3rem 3rem;
+  margin: 2.5rem;
   border-radius: 0.8rem;
+}
+.middle-row h2 {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #00252e;
+}
+.middle-row p {
+  font-size: 0.9rem;
+  color: #808d99;
+}
+.middle-row img {
+  height: 16rem;
+  width: auto;
+}
+
+.middle-txt-col {
+  padding: 4rem;
+}
+
+.grow-img {
+  text-align: right;
+  padding: 0;
+}
+
+.flowing-img {
+  text-align: left;
+  padding: 0;
+  margin-left: 2rem;
+}
+
+.users-img {
+  text-align: right;
+  padding: 0;
 }
 
 /*# sourceMappingURL=style.css.map */
