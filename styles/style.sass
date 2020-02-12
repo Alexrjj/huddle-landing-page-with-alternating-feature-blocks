@@ -18,22 +18,60 @@ $open-sans: 'Open Sans', sans-serif
 h1
   font-family: $poppins
   font-size: 1.9rem
-  font-weight: 600
+
 
 .body
   font-size: 18px
   font-family: $open-sans
 
 .top-container
-  background: $very-pale-cyan url("../images/bg-hero-desktop.svg") no-repeat fixed
+  background: $very-pale-cyan url("../images/bg-hero-desktop.svg") no-repeat
+  padding: 3rem 4rem
+
+.top-logo
+  padding-bottom: 4rem
+
+  img
+    width: 30%
+
+.try-it-free
+  text-align: right
+
+  button
+    -webkit-box-shadow: 6px 6px 10px -8px rgba(0,0,0,0.25)
+    -moz-box-shadow: 6px 6px 10px -8px rgba(0,0,0,0.25)
+    box-shadow: 6px 6px 10px -8px rgba(0,0,0,0.25)
+    padding: 0.5rem 3rem
+    border-radius: 40px
+    color: $very-dark-cyan
+    background-color: white
+    border-color: white
+    font-size: 0.8rem
+    font-weight: bold
 
 .top-left-column
+  padding: 4.5rem 2.3rem
+
   h1
     line-height: 1.5
+    padding-bottom: 1.2rem
 
   p
     font-size: 1rem
     color: $very-dark-cyan
+
+  button
+    background-color: $pink
+    border-color: $pink
+    border-radius: 40px
+    padding: 0.8rem 3.2rem
+    font-weight: bold
+    font-size: 0.8em
+    color: $very-pale-cyan
+
+  button:hover
+    border-color: $pink
+    background-color: #ff18b3
 
 .top-right-column
   img
@@ -86,13 +124,12 @@ h1
   -moz-box-shadow: 0 0 10px 4px rgba(0,0,0,0.06)
   box-shadow: 0 0 10px 4px rgba(0,0,0,0.06)
   border-radius: 0.8rem
-  //margin-top: 6rem
   width: calc(100% - 35rem)
   padding: 3rem 3rem
   transform: translateX(-50%)
   text-align: center
   position: absolute
-  top: 114rem
+  top: 125rem
   left: 50%
   z-index: 2
   background-color: white
@@ -102,9 +139,18 @@ h1
     font-size: 1.7rem
 
   button
+    -webkit-box-shadow: 0 0 10px 4px rgba(0,0,0,0.18)
+    -moz-box-shadow: 0 0 10px 4px rgba(0,0,0,0.18)
+    box-shadow: 0 0 10px 4px rgba(0,0,0,0.18)
+    background-color: $pink
+    border-color: $pink
     border-radius: 40px
     padding: 1.1rem 6rem
     font-weight: bold
+
+  button:hover
+    border-color: $pink
+    background-color: #ff18b3
 
 .bottom-container
   padding: 8.5rem 7rem 1rem 7rem
