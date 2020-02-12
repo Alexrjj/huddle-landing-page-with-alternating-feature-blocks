@@ -213,4 +213,14 @@ h1 {
   text-align: center;
 }
 
+@media screen and (min-width: 1440px) {
+  .container-fluid {
+    width: 50%;
+  }
+
+  .cta-row {
+    width: 30%;
+  }
+}
+
 /*# sourceMappingURL=style.css.map */
