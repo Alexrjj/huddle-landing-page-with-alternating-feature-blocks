@@ -192,6 +192,10 @@ h1 {
   border-radius: 50%;
   text-align: center;
 }
+.icons i:hover {
+  color: #ff52bf;
+  border-color: #ff52bf;
+}
 
 .copyright {
   padding-top: 0.5rem;
