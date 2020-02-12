@@ -1,6 +1,7 @@
 @import url("https://fonts.googleapis.com/css?family=Open+Sans:400,700|Poppins:600&display=swap");
 h1 {
   font-family: "Poppins", sans-serif;
+  font-size: 1.9rem;
   font-weight: 600;
 }
 
@@ -27,7 +28,7 @@ h1 {
 }
 
 .middle-container {
-  margin-top: 8rem;
+  margin: 8rem 2rem 17rem 0;
 }
 
 .middle-row {
@@ -70,6 +71,37 @@ h1 {
 .users-img {
   text-align: right;
   padding: 0;
+}
+
+.cta-row {
+  -webkit-box-shadow: 0 0 10px 4px rgba(0, 0, 0, 0.06);
+  -moz-box-shadow: 0 0 10px 4px rgba(0, 0, 0, 0.06);
+  box-shadow: 0 0 10px 4px rgba(0, 0, 0, 0.06);
+  border-radius: 0.8rem;
+  width: calc(100% - 35rem);
+  padding: 3rem 3rem;
+  transform: translateX(-50%);
+  text-align: center;
+  position: absolute;
+  top: 114rem;
+  left: 50%;
+  z-index: 2;
+  background-color: white;
+}
+.cta-row h1 {
+  padding-bottom: 1.7rem;
+  font-size: 1.7rem;
+}
+.cta-row button {
+  border-radius: 40px;
+  padding: 1.1rem 6rem;
+  font-weight: bold;
+}
+
+.bottom-container {
+  padding-top: 10rem;
+  background-color: #00252e;
+  color: white;
 }
 
 /*# sourceMappingURL=style.css.map */
