@@ -99,9 +99,44 @@ h1 {
 }
 
 .bottom-container {
-  padding-top: 10rem;
+  padding: 8.5rem 7rem;
   background-color: #00252e;
   color: white;
+}
+
+.info-section div {
+  display: flex;
+  align-items: flex-start;
+  margin: 0 0 1.5em 0;
+}
+.info-section img {
+  margin-top: 0.2rem;
+  margin-right: 1rem;
+}
+.info-section p {
+  margin: 0;
+  padding: 0;
+  color: white;
+  font-size: 0.85rem;
+}
+
+.bottom-logo {
+  width: 20%;
+  margin-bottom: 2rem;
+}
+
+.about-us {
+  font-size: 0.95rem;
+  margin-left: 5rem;
+}
+
+.career {
+  font-size: 0.95rem;
+  margin-left: 2rem;
+}
+
+.icons {
+  text-align: left;
 }
 
 /*# sourceMappingURL=style.css.map */
