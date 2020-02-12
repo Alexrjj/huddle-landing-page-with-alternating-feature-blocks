@@ -101,7 +101,7 @@ h1 {
 .bottom-container {
   padding: 8.5rem 7rem;
   background-color: #00252e;
-  color: white;
+  color: #ebfbff;
 }
 
 .info-section div {
@@ -116,7 +116,6 @@ h1 {
 .info-section p {
   margin: 0;
   padding: 0;
-  color: white;
   font-size: 0.85rem;
 }
 
